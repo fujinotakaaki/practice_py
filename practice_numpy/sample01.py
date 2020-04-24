@@ -21,13 +21,13 @@ print 2*arr2 # => [20 40 60 80]
 
 # 行列積
 #print(arr1 * arr1) # => TypeError
-print(arr2 * arr2) # => [100 400 900 1600] 数学の行列の計算法が異なる
+print(arr2 * arr2) # => [100 400 900 1600] 数学の行列の計算法とは異なる
 
 # リストとndarrayの四則演算
 print(arr1 + arr2) # => [20 40 60 80]
 print(arr1 - arr2) # => [0 0 0 0]
-print(arr1 * arr2) # => [100 400 900 1600] 数学の行列の計算法が異なる
-print(arr1 / arr2) # => [1 1 1 1] 数学の行列の計算法が異なる
+print(arr1 * arr2) # => [100 400 900 1600] 数学の行列の計算法とは異なる
+print(arr1 / arr2) # => [1 1 1 1] 数学の行列の計算法とは異なる
 
 arr3 = np.array(range(1,9))
 print arr3 # => [1 2 3 4 5 6 7 8]
@@ -61,7 +61,3 @@ print np.arange(1,11,2) # => [1 3 5 7 9] (要素はint64)
 
 # 分割
 print np.linspace(1,11,5) # => [ 1.    3.5   6.    8.5  11. ] (要素はfloat64)
-
-
-
-
