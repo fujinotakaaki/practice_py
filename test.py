@@ -1,9 +1,16 @@
-print('Hello World')
-print("test")
-dic = { "a": 33 }
-if not True:
-	print("OK?")
+print "Hellow World"
+i = 10
+while i>0:
+  i -= 1
+  print i
 else:
-	print("NG!!!")
-	
-print(dic)
+  print i
+
+print 'test'
+
+for i in range(1,10,-1):
+  print i
+else:
+  print('finish')
+  
+print range(10)[5:-0]
