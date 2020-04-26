@@ -1,6 +1,7 @@
 # coding:utf-8
 import numpy as np
 import matplotlib.pyplot as plt
+# 二次関数のグラフ描画
 
 # 二次関数のグラフ
 x = np.linspace(-2,2,10)

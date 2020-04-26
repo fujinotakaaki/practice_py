@@ -1,6 +1,7 @@
 # coding:utf-8
 import numpy as np
 import matplotlib.pyplot as plt
+# グラフ描画（オプション利用）
 
 t = np.pi
 # 三角関数のグラフ
@@ -24,4 +25,4 @@ plt.ylabel("result") # => y軸ラベル
 plt.legend() # => 凡例表示フラグ
 
 
-plt.show() # => y = x^2のグラフ描画
+plt.show() # グラフ描画
