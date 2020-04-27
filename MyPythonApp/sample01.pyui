@@ -1,0 +1,105 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 6}, {195, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "E8E54DA0-6552-49B6-AF43-8C0A1C0E2B5E",
+          "font_size" : 18,
+          "corner_radius" : 0,
+          "frame" : "{{85, 144}, {150, 32}}",
+          "tint_color" : "RGBA(0.521739,1.000000,0.521739,1.000000)",
+          "border_width" : 0,
+          "alignment" : "left",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "ここが変わります",
+          "alpha" : 1,
+          "font_name" : "Arial-BoldItalicMT",
+          "class" : "Label",
+          "name" : "label1",
+          "flex" : ""
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 58}, {206, 49}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "onAction",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Touch me",
+          "uuid" : "558381F3-0A7D-43B6-8443-D2B01E35D94C",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 29
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 162}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "364FC964-4EA7-4E55-BB5B-040FDAF63D19",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "action" : "onChange",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "placeholder" : "",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "textfield1",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 119}, {424, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "E8E54DA0-6552-49B6-AF43-8C0A1C0E2B5E",
+          "flex" : "",
+          "corner_radius" : 0,
+          "frame" : "{{85, 144}, {150, 32}}",
+          "tint_color" : "RGBA(0.521739,1.000000,0.521739,1.000000)",
+          "border_width" : 0,
+          "alignment" : "left",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "値を入力すると上のテキストに反映されます。",
+          "alpha" : 1,
+          "font_name" : "Arial-BoldItalicMT",
+          "class" : "Label",
+          "name" : "label2",
+          "font_size" : 18
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "Hello World",
+      "enabled" : true,
+      "background_color" : "RGBA(0.847826,1.000000,0.847826,1.000000)",
+      "tint_color" : "RGBA(0.260870,0.507246,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
